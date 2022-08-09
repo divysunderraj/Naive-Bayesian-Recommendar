@@ -12,6 +12,9 @@ We consider the ratings for the different movies to be independent.
 Therefore, we end up with this as the posterior probability calculation for a user $u$:
   ### $P(r_{u,i} = rating) \propto	P(m_i = rating) \prod\limits_{j=1} P(r_j = k \mid r_i = rating)$
   
+Note: At the moment, this algorithm only works if the movie in question for recommendation is present in the training set.
+  
 [Link to research method is based on](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8787761) 
 
 Sources: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8787761
+
