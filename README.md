@@ -14,4 +14,4 @@ Therefore, we end up with this as the posterior probability calculation for a us
   
 [Link to research method is based on](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8787761) 
 
-Sources: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8787761 , 
+Sources: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8787761
