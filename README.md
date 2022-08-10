@@ -12,6 +12,8 @@ We consider the ratings for the different movies to be independent.
 Therefore, we end up with this as the posterior probability calculation for a user $u$:
   ### $P(r_{u,i} = rating) \propto	P(m_i = rating) \prod\limits_{j=1} P(r_j = k \mid r_i = rating)$
   
+Note: At the current deveolpment, user id in test set must already be present in training set. However, this is not the case for movie id.
+
 [Link to research that method is based on](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8787761) 
 
 Sources: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8787761
